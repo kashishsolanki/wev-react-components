@@ -100,13 +100,13 @@
 }
 .visibility-select {
     -webkit-appearance: none;
-    background-image: url(./down-arrow.svg) !important;
+    background-image: url(./assets/images/down-arrow.svg) !important;
     background-repeat: no-repeat;
     background-position: right 16px center;
 }
 .video-select {
     /* -webkit-appearance: none; */
-    background-image: url(./video.svg) !important;
+    background-image: url(./assets/images/video.svg) !important;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
