@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video-label {
+    width: 100%;
+    min-height: 338px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #9f9f9f;
+    margin: 0;
+    gap: 20px;
+}
+.video-preview {
+    height: 338px;
+    width: 100%;
+}
+.text-input {
+    height: 55px;
+    padding: 15px 50px 16px 12px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: navajowhite;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313336;
+}
+
+.textarea-input {
+    height: 130px !important;
+}
+
+.add-footage-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #313336;
+}
+
+.limit-count {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9f9f9f;
+}
+.visibility-select {
+    -webkit-appearance: none;
+    background-image: url(./down-arrow.svg) !important;
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+.video-select {
+    /* -webkit-appearance: none; */
+    background-image: url(./video.svg) !important;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: right 16px center;
+}
+
+.text-input:focus-visible, .text-input:focus {
+    outline: none !important;
+}
+
+.cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9f9f9f;
+    border: 1px solid #9f9f9f;
+    width: 343px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff !important;
+    border: 1px solid #9f9f9f;
+    width: 343px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #ff7720 !important;
+    border-color: #ff7720 !important;
+}
